@@ -165,7 +165,7 @@ body {
     height: 806px;
     background: url(../images/pc/b2.png) center center/806px auto no-repeat; }
   .indexMod .im-b2t1 {
-    padding-top: 255px;
+    padding-top: 200px;
     width: 1036px;
     height: 280px;
     font-size: 34px;
@@ -377,7 +377,7 @@ body {
   .indexMod .im-b6 {
     background: url(../images/pc/b6.png) center top/1001px 865px no-repeat;
     height: 865px;
-    padding-top: 308px;
+    padding-top: 219px;
     margin-top: 85px;
     box-sizing: border-box; }
     .indexMod .im-b6-1 {
@@ -390,15 +390,15 @@ body {
       text-align: center; }
     .indexMod .im-b6-2 {
       width: 1114px;
-      height: 384px;
-      font-size: 32px;
+      /* height: 384px; */
+      font-size: 28px;
       font-family: SFPro, arial;
       font-weight: normal;
       color: #FFFFFF;
       line-height: 48px;
       text-align: center;
       margin: 0 auto;
-      margin-top: 42px; }
+      margin-top: 21px; }
   .indexMod .im-b7 {
     height: 75px;
     font-size: 40px;
@@ -660,10 +660,15 @@ body {
         margin-left: auto;
         margin-right: auto; }
     .indexMod .im-b10-c2 {
-      width: 435px;
+      /* width: 435px; */
       float: left;
       margin-left: 63px;
       margin-top: 55px; }
+      .indexMod .im-b10-c2-w {
+        width: 435px; 
+        float: left;
+        margin-left: 63px;
+        margin-top: 55px;}
       .indexMod .im-b10-c2-t {
         height: 45px;
         font-size: 24px;
@@ -864,3 +869,15 @@ body {
 
 * {
   -webkit-tap-highlight-color: transparent; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 col */
+  grid-template-rows: 1fr 1fr; /* 2 row */
+  /* gap: 10px; 
+  height: 400px;  */
+}
+
+.grid-item {
+  padding: 20px;
+}
