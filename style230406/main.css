@@ -165,14 +165,15 @@ body {
     height: 806px;
     background: url(../images/pc/b2.png) center center/806px auto no-repeat; }
   .indexMod .im-b2t1 {
-    padding-top: 200px;
+    padding-top: 50px;
+    max-width: 650px;
     width: 1036px;
-    height: 280px;
-    font-size: 34px;
+    /* height: 280px; */
+    font-size: 18px;
     font-family: SFPro-Bold, SFPro, arial;
-    font-weight: bold;
+    font-weight: 300;
     color: #FFFFFF;
-    line-height: 56px;
+    line-height: 30px;
     text-align: center;
     margin: 0 auto; }
   .indexMod .im-b3 {
@@ -880,4 +881,78 @@ body {
 
 .grid-item {
   padding: 20px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  justify-items: center; }
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px }
+  .gap-medium {
+    grid-gap: 55px; }
+
+.ProductCard_card_Ferjj {
+  /* border: 1px solid hsla(0,0%,100%,.11); */
+  border-radius: 19px;
+  padding: 38px 35px 48px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* max-width: 575px; */
+  width: 100%;
+  height: 536px;
+  background: url(../images/pc/b11-1.png) 0 0/100% 100% no-repeat;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-sizing: border-box; }
+
+.ProductCard_img-container {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 36px;
+  border-radius: 13px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+} .ProductCard_img-container_network_bg {
+  /* background: url(../images/pc/logo.png); */
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} .ProductCard_img-container_aspect_bg {
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47%;
+} .ProductCard_title {
+  text-align: center;
+  margin: 0 0 9px;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+} .ProductCard_description {
+  text-align: center;
+  max-width: 90%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  line-height: 25px;
+} .ProductCard_button {
+  border: none;
+  /* background-color: #383637; */
+  background: url(../images/pc/b11-1.png) 0 0/100% 100% no-repeat;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 76px;
+  padding: 18px 38px;
 }
