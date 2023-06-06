@@ -956,3 +956,21 @@ body {
   border-radius: 76px;
   padding: 18px 38px;
 }
+
+.indexMod .im-b2_5 {
+  background: url(../images/pc/b6.png) center top/500px 430px no-repeat;
+  height: 430px;
+  padding-top: 120px;
+  /* margin-top: 85px; */
+  box-sizing: border-box; }
+.indexMod  .im-b2_5_1 {
+    height: 160px;
+    font-size: 60px;
+    font-family: SFPro-Bold, SFPro, arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 32px;
+}
