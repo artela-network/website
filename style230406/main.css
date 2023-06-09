@@ -463,7 +463,7 @@ body {
       background: url(../images/pc/b8-i1.png) 0 0/100% 100% no-repeat;
       float: left; }
     .indexMod .im-b8-c1-ext {
-      margin-top: 111px;
+      margin-top: 60px;
       margin-left: 20px;
       height: 16px;
       font-size: 14px;
@@ -473,7 +473,8 @@ body {
       line-height: 16px; }
     .indexMod .im-b8-c1-ex {
       margin-left: 20px;
-      margin-top: 18px; }
+      /* margin-top: 18px;  */
+    }
     .indexMod .im-b8-c1-exItem {
       background-color: rgba(0, 127, 255, 0.3);
       border-radius: 26px;
@@ -488,7 +489,9 @@ body {
       width: 83px;
       margin-right: 9px;
       text-align: center;
-      vertical-align: top; }
+      vertical-align: top; 
+      margin-top: 8px;
+    }
     .indexMod .im-b8-c2-l {
       width: 312px;
       height: 84px;
@@ -526,7 +529,7 @@ body {
         margin-left: 13px;
         background: url(../images/pc/b8-i3.png) 0 0/100% 100% no-repeat; }
     .indexMod .im-b8-c2-ext {
-      margin-top: 111px;
+      margin-top: 60px;
       margin-left: 20px;
       width: 74px;
       height: 16px;
@@ -537,7 +540,8 @@ body {
       line-height: 16px; }
     .indexMod .im-b8-c2-ex {
       margin-left: 20px;
-      margin-top: 18px; }
+      /* margin-top: 18px;  */
+    }
     .indexMod .im-b8-c2-exItem {
       text-align: center;
       padding: 0 10px;
@@ -554,7 +558,9 @@ body {
       display: inline-block;
       margin-right: 9px;
       text-align: center;
-      vertical-align: top; }
+      vertical-align: top; 
+      margin-top: 8px;
+    }
     .indexMod .im-b8-c3-l {
       width: 312px;
       height: 84px;
@@ -565,7 +571,7 @@ body {
       line-height: 28px;
       margin: 17px 0 0 25px; }
     .indexMod .im-b8-c3-imgs {
-      margin-top: 42px;
+      margin-top: 2px;
       margin-left: 29px;
       overflow: hidden; }
     .indexMod .im-b8-c3-img {
@@ -595,7 +601,7 @@ body {
         float: left;
         margin: 8px 0 0 49px; }
     .indexMod .im-b8-c3-ext {
-      margin-top: 16px;
+      margin-top: 6px;
       margin-left: 20px;
       height: 16px;
       font-size: 14px;
@@ -605,7 +611,8 @@ body {
       line-height: 16px; }
     .indexMod .im-b8-c3-ex {
       margin-left: 20px;
-      margin-top: 18px; }
+      /* margin-top: 8px;  */
+    }
     .indexMod .im-b8-c3-exItem {
       text-align: center;
       padding: 0 10px;
@@ -621,7 +628,9 @@ body {
       display: inline-block;
       margin-right: 9px;
       text-align: center;
-      vertical-align: top; }
+      vertical-align: top; 
+      margin-top: 8px;
+    }
   .indexMod .im-b9 {
     height: 120px;
     font-size: 40px;
