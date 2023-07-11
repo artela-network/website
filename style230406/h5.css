@@ -657,12 +657,13 @@ body {
     text-align: center; }
   .indexModH5 .im-b14 {
     width: 7.2rem;
-    height: 9.72rem;
+    /* height: 9.72rem; */
+    height: 10rem;
     /* background: url(../images/h5/b14.png) 0 0/100% 100% no-repeat; */
     margin: 0 auto;
     margin-top: 2.8rem;
-    box-sizing: border-box;
-    padding-top: .84rem; }
+    box-sizing: border-box;}
+    /* padding-top: .84rem; } */
     .indexModH5 .im-b14-c1 {
       margin-left: .5rem; }
       .indexModH5 .im-b14-c1-t1 {
@@ -863,15 +864,15 @@ body {
   /* position: absolute; */
   top: 0;
   left: 0;
-  width: 50%;
-  height: 100%;
+  width: 55%;
+  height: 85%;
 } .ProductCard_img-container_aspect_bg {
   background: url(../images/pc/aspect_programming.png);
   background-size: cover;
   /* position: absolute; */
   top: 0;
   left: 0;
-  width: 50%;
+  width: 55%;
   height: 100%;
 } .ProductCard_title {
   text-align: center;
