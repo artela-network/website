@@ -383,7 +383,7 @@ body {
       margin-top: .32rem;
       width: 6.96rem;
       /* height: 10.3rem; */
-      height: 11.4rem;
+      height: 11rem;
       background: url(../images/h5/bb3.png) 0 0/100% 100% no-repeat;
       box-sizing: border-box;
       padding-top: .52rem; }
@@ -445,9 +445,10 @@ body {
       font-weight: bold;
       white-space: nowrap;
       display: inline-block;
-      width: 1.34rem;
+      /* width: 1.34rem; */
+      padding: 0 .15rem;
       margin-right: .16rem;
-      text-align: center;
+      /* text-align: center; */
       vertical-align: top; }
     .indexModH5 .im-b8-c2-l {
       height: 2.08rem;
@@ -498,8 +499,9 @@ body {
       white-space: nowrap;
       display: inline-block;
       margin-bottom: .16rem;
-      width: 6.3rem;
-      text-align: center;
+      /* width: 6.3rem; */
+      padding: 0 .15rem;
+      /* text-align: center; */
       vertical-align: top; }
     .indexModH5 .im-b8-c3-imgs {
       margin-top: .56rem;
@@ -546,14 +548,15 @@ body {
       height: .5rem;
       line-height: .5rem;
       color: white;
-      font-size: 12px;
+      font-size: .24rem;
       font-family: SFPro-Bold, SFPro, arial;
       font-weight: bold;
       white-space: nowrap;
       display: inline-block;
       margin-bottom: .16rem;
+      /* width: 6.3rem; */
       padding: 0 .15rem;
-      text-align: center;
+      /* text-align: center; */
       vertical-align: top; }
   .indexModH5 .im-b9 {
     height: 2.1rem;
@@ -617,15 +620,16 @@ body {
     padding-top: .72rem; }
     .indexModH5 .im-b12-icon {
       width: 5.76rem;
-      height: 4.24rem;
-      background: url(../images/h5/b11_3.png) 0 0/100% 100% no-repeat;
+      height: 4.44rem;
+      background: url(../images/h5/aspect.png) 0 0/100% 100% no-repeat;
       margin: 0 auto; }
     .indexModH5 .im-b12-i1 {
       font-size: .28rem;
       color: #fff;
       line-height: .42rem;
       padding: 0 .36rem;
-      margin-top: 1.08rem;
+      /* margin-top: 1.08rem; */
+      margin-top: 0.7rem;
       font-family: SFPro-Bold, SFPro, arial;
       font-weight: bold;
       color: #FFFFFF; }
@@ -867,7 +871,8 @@ body {
   width: 55%;
   height: 85%;
 } .ProductCard_img-container_aspect_bg {
-  background: url(../images/pc/aspect_programming.png);
+  /* background: url(../images/pc/aspect_programming.png); */
+  background: url(../images/pc/b11-i3.png);
   background-size: cover;
   /* position: absolute; */
   top: 0;

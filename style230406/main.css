@@ -716,17 +716,18 @@ body {
     margin-top: 80px;
     box-sizing: border-box; }
     .indexMod .im-b12-c1 {
-      width: 370px;
-      height: 275px;
-      background: url(../images/pc/b11-i3.png) 0 0/100% 100% no-repeat;
+      width: 420px;
+      height: 340px;
+      /* background: url(../images/pc/b11-i3.png) 0 0/100% 100% no-repeat; */
+      background: url(../images/pc/aspect.png) 0 0/100% 100% no-repeat;
       margin-left: 73px;
       float: left;
-      margin-top: 131px; }
+      margin-top: 80px; }
     .indexMod .im-b12-c2 {
       width: 505px;
       float: left;
-      margin-left: 115px;
-      margin-top: 79px; }
+      margin-left: 65px;
+      margin-top: 80px; }
     .indexMod .im-b12-i1 {
       width: 505px;
       height: 110px;
@@ -937,13 +938,14 @@ body {
   width: 50%;
   height: 100%;
 } .ProductCard_img-container_aspect_bg {
-  background: url(../images/pc/aspect_programming.png);
+  /* background: url(../images/pc/aspect_programming.png); */
+  background: url(../images/pc/b11-i3.png);
   background-size: cover;
   /* position: absolute; */
   top: 0;
   left: 0;
   width: 50%;
-  height: 100%;
+  height: 75%;
 } .ProductCard_title {
   text-align: center;
   margin: 0 0 9px;
