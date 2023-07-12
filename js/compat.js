@@ -18,7 +18,11 @@ var os = function() {
  
 var url = location.href;
 if((os.isAndroid || os.isPhone) && url.indexOf('h5') == -1){
-  location.replace('./h5.html');
-}else if(os.isPc && url.indexOf('index') == -1){
-  location.replace('./');
+  url = url.replace('index.html','');
+  url = url.replace(/\/$/,'');
+  location.replace(url + '/h5.html');
+}else if(os.isPc && url.indexOf('h5') != -1){
+  url = url.replace('h5.html','');
+  url = url.replace(/\/$/,'');
+  location.replace(url + '/');
 }
