@@ -1,7 +1,9 @@
 /* reset */
 html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  scroll-behavior: smooth;
+}
 
 header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
   display: block; }
@@ -56,24 +58,41 @@ del, ins, u, s, a, a:hover {
 
 body, textarea, input, button, select, keygen, legend {
   font: 12px/1.14 SFPro, arial;
+  font-family: "gilda display", Cardo, STSong, "Songti SC", SimSun, "PingFang SC", "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, serif;
   color: #333;
   outline: 0; }
 
 body {
-  background: #000;
-  font-family: SFPro, arial; }
+  background: #000000;
+  font-family: "gilda display", Cardo, STSong, "Songti SC", SimSun, "PingFang SC", "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, serif; }
+  /* font-family: SFPro, arial; } */
 
 .br {
   display: block; }
 
 .indexMod {
-  background: url(../images/pc/x1.png) left top/1128px 1969px no-repeat, url(../images/pc/x2.png) right 1534px/1017px 1657px no-repeat, url(../images/pc/x3.png) left 2903px/1556px 2091px no-repeat, url(../images/pc/x4.png) left 5452px/557px 1195px no-repeat, url(../images/pc/x5-1.png) right bottom/1228px 1766px no-repeat;
-  padding-bottom: 191px;
+  /* background: url(../images/pc/x1.png) left top/1128px 1969px no-repeat, url(../images/pc/x2.png) right 1534px/1017px 1657px no-repeat, url(../images/pc/x3.png) left 2903px/1556px 2091px no-repeat, url(../images/pc/x4.png) left 5452px/557px 1195px no-repeat, url(../images/pc/x5-1.png) right bottom/1228px 1766px no-repeat; */
+  padding-bottom: 20px;
   min-width: 1200px; }
   .indexMod .im-inner {
-    width: 1200px;
+    /* width: 1200px; */
+    background-color: #000;
     margin: 0 auto;
     position: relative; }
+    .indexMod .im-inner-2 {
+      /* width: 1200px; */
+      background:rgb(255, 255, 255);
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 100px;
+      position: relative; }
+    .indexMod .im-inner-3 {
+      /* width: 1200px; */
+      background:rgb(242, 242, 242);
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 100px;
+      position: relative; }
   .indexMod .im-hd {
     height: 36px;
     padding-top: 33px;
@@ -81,9 +100,9 @@ body {
     margin-left: 63px;
     margin-right: 69px; }
   .indexMod .im-logo {
-    width: 172px;
+    width: 100px;
     height: 30px;
-    background: url(../images/pc/logo.png) 0 0/100% 100% no-repeat;
+    background: url(../images/pc/a3logo-new-white-size.png) 0 0/100% 100% no-repeat;
     float: left; }
   .indexMod .im-menus {
     float: right;
@@ -92,7 +111,7 @@ body {
     width: 42px;
     height: 25px;
     font-size: 18px;
-    font-family: SFPro-Bold, SFPro, arial;
+    /* font-family: SFPro-Bold, SFPro, arial; */
     font-weight: bold;
     line-height: 25px;
     cursor: pointer;
@@ -140,15 +159,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    .indexMod .im-page2 {
+      /* min-height: 400px; */
+      /* height: calc(100vh - 66px); */
+      /* display: flex;
+      justify-content: center;
+      align-items: center;  */
+      width: 1200px;
+      margin: 0 auto;
+    position: relative;
+    }
   .indexMod .im-b1 {
     height: 570px;
-    background: url(../images/pc/b1-1.png) center center/659px auto no-repeat; }
+    /* background: url(../images/pc/b1-1.png) center center/659px auto no-repeat;  */
+  }
   .indexMod .im-t1 {
     height: 160px;
     font-size: 60px;
-    font-family: SFPro-Bold, SFPro, arial;
-    font-weight: bold;
-    color: #FFFFFF;
+    /* font-family: SFPro-Bold, SFPro, arial; */
+    /* font-weight: bold; */
+    color: #ffffff;
     line-height: 80px;
     text-align: center;
     padding-top: 234px;
@@ -156,7 +186,7 @@ body {
   .indexMod .im-t2 {
     height: 116px;
     font-size: 18px;
-    font-family: SFPro-Light, SFPro, arial;
+    /* font-family: SFPro-Light, SFPro, arial; */
     font-weight: 300;
     color: #FFFFFF;
     line-height: 30px;
@@ -170,23 +200,23 @@ body {
     width: 1036px;
     /* height: 280px; */
     font-size: 20px;
-    font-family: SFPro-Bold, SFPro, arial;
+    /* font-family: SFPro-Bold, SFPro, arial; */
     font-weight: 300;
     color: #FFFFFF;
     line-height: 30px;
     text-align: center;
     margin: 0 auto; }
   .indexMod .im-b3 {
-    margin-top: 118px;
+    margin-top: 50px;
     height: 120px;
     font-size: 40px;
-    font-family: SFPro-Bold, SFPro, arial;
-    font-weight: bold;
+    /* font-family: SFPro-Bold, SFPro, arial; */
+    /* font-weight: bold; */
     color: #FFFFFF;
     line-height: 60px;
     text-align: center; }
   .indexMod .im-b3em {
-    color: #0082ff; }
+    color: #000000; }
   .indexMod .im-b4 {
     width: 886px;
     height: 56px;
@@ -350,6 +380,36 @@ body {
     margin-left: 60px;
     margin-top: 49px;
     width: 510px; }
+    .indexMod .im-text {
+      /* width: 482px;
+      height: 199px; */
+      font-size: 20px;
+      /* font-family: SFPro-Bold, SFPro, arial; */
+      /* font-weight: bold; */
+      color: #030303;
+      line-height: 36px;
+      text-align:center;
+      margin-bottom: 15px; }
+    .indexMod .im-text-w {
+      /* width: 482px;
+      height: 199px; */
+      font-size: 20px;
+      /* font-family: SFPro-Bold, SFPro, arial; */
+      /* font-weight: bold; */
+      color: #ffffff;
+      line-height: 36px;
+      text-align:center;
+      margin-bottom: 15px; }
+    .indexMod .im-text {
+      /* width: 482px;
+      height: 199px; */
+      font-size: 20px;
+      /* font-family: SFPro-Bold, SFPro, arial; */
+      /* font-weight: bold; */
+      color: #030303;
+      line-height: 36px;
+      text-align:center;
+      margin-bottom: 15px; }
     .indexMod .im-b52-i1 {
       width: 482px;
       height: 199px;
@@ -376,10 +436,10 @@ body {
       color: #fff;
       padding-bottom: 27px; }
   .indexMod .im-b6 {
-    background: url(../images/pc/b6.png) center top/1001px 865px no-repeat;
+    /* background: url(../images/pc/b6.png) center top/1001px 865px no-repeat; */
     height: 865px;
-    padding-top: 219px;
-    margin-top: 85px;
+    /* padding-top: 219px;
+    margin-top: 85px; */
     box-sizing: border-box; }
     .indexMod .im-b6-1 {
       font-size: 40px;
@@ -709,25 +769,26 @@ body {
     .indexMod .im-b11-em {
       color: #0082ff; }
   .indexMod .im-b12 {
-    width: 1100px;
-    height: 536px;
-    background: url(../images/pc/b11-1.png) 0 0/100% 100% no-repeat;
+    width: 1200px;
+    height: 400px;
+    /* background: url(../images/pc/b11-1.png) 0 0/100% 100% no-repeat; */
     margin: 0 auto;
-    margin-top: 80px;
-    box-sizing: border-box; }
+    /* margin-top: 80px; */
+    box-sizing: border-box; 
+  }
     .indexMod .im-b12-c1 {
-      width: 420px;
+      width: 60%;
       height: 340px;
       /* background: url(../images/pc/b11-i3.png) 0 0/100% 100% no-repeat; */
-      background: url(../images/pc/aspect.png) 0 0/100% 100% no-repeat;
+      background: url(../images/pc/a3summit.png) 0 0/100% 100% no-repeat;
       margin-left: 73px;
       float: left;
-      margin-top: 80px; }
+      margin-top: 0px; }
     .indexMod .im-b12-c2 {
-      width: 505px;
+      width: 25%;
       float: left;
       margin-left: 65px;
-      margin-top: 80px; }
+      margin-top: 30px; }
     .indexMod .im-b12-i1 {
       width: 505px;
       height: 110px;
@@ -894,6 +955,67 @@ body {
   padding: 20px;
 }
 
+.indexMod .im-b6-logo {
+  /* height: 865px; */
+  display: flex;
+  box-sizing: border-box; 
+  justify-content: center;
+
+}
+
+.im-n6-logo1 {
+  float:left;
+  height: 30px;
+  width: 172px;
+  background: url(../images/pc/zanlogo.png) 0 0/100% 100% no-repeat;
+  margin-right: 50px;
+}
+.im-n6-logo2 {
+  float:left;
+  height: 30px;
+  width: 172px;
+  background: url(../images/pc/logo-artela.png) 0 0/100% 100% no-repeat;
+  margin-right: 50px;
+}
+.im-n6-logo3 {
+  float:left;
+  height: 30px;
+  width: 172px;
+  background: url(../images/pc/logo-trusta.png) 0 0/100% 100% no-repeat;
+  margin-right: 50px;
+}
+
+.indexMod .im-b12-h1 {
+  /* width: 505px; */
+  /* height: 110px; */
+  font-size: 24px;
+  font-family: SFPro-Bold, SFPro, arial;
+  font-weight: bold;
+  color: #000000;
+  line-height: 30px; }
+
+  .indexMod .im-b12-h2 {
+    /* width: 505px; */
+    /* height: 110px; */
+    font-size: 20px;
+    font-family: SFPro-Bold, SFPro, arial;
+    font-weight: bold;
+    color: #000000;
+    line-height: 30px; 
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+  .indexMod .im-b12-text {
+    /* width: 505px; */
+    /* height: 110px; */
+    font-size: 18px;
+    font-family: SFPro-Bold, SFPro, arial;
+    /* font-weight: bold; */
+    color: #000000;∂
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 30px; }
+
 .grid {
   display: grid;
   justify-content: center;
@@ -979,7 +1101,7 @@ body {
 .indexMod  .im-b2_5_1 {
     height: 160px;
     font-size: 60px;
-    font-family: SFPro-Bold, SFPro, arial;
+    font-family: "gilda display", Cardo, STSong, "Songti SC", SimSun, "PingFang SC", "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, serif;
     font-weight: bold;
     color: #FFFFFF;
     line-height: 80px;
